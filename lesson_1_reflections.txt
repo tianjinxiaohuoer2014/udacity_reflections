@@ -1,0 +1,67 @@
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+easily trace back..
+========================
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+logically tracing capability
+========================
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+changes are related, trace them together
+==========================================================================
+Cloning a Repository
+
+To clone a repository, run git clone followed by a space and the repository URL.
+
+Asteroids URL
+
+Use the following url to clone the Asteroids repository: https://github.com/udacity/asteroids.git
+
+Exiting git log
+
+To stop viewing git log output, press q (which stands for quit).
+
+Getting Colored Output
+
+To get colored diff output, run git config --global color.ui auto
+
+Copying and Pasting from the Command Line
+
+To complete this quiz, you'll want to copy and paste some commit ids.
+
+Windows 
+To copy and paste within Git Bash, follow the instructions on this page.
+
+Mac 
+To copy and paste within the terminal on Mac, use Cmd+C and Cmd+V
+
+Ubuntu 
+To copy and paste within the terminal on Ubuntu, use Ctrl+Shift+C and Ctrl+Shift+V.
+
+Using git log and git diff
+
+As a reminder, running git log will show a list of the recent commits with information about them, including commit IDs. Running git diff followed by two commit IDs will compare the two versions of the code in those commits. If you need a refresher, you may want to rewatch this video.
+
+Entering commit IDs
+
+If it is easier, you may enter the first four or more characters of the commit ID rather than pasting the entire ID.
+
+=======================
+How can you use the commands git log and git diff to view the history of files?
+========================
+Git Errors and Warnings Solution
+
+Should not be doing an octopus 
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state 
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+Panic! (the 'impossible' happened) 
+This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a programming language called Haskell. It’s reserved for particularly surprising errors!
+
+Takeaway We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.
+
+=========================
+How might using version control make you more confident to make changes that could break something?
+=========================
+
+
